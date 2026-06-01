@@ -11,7 +11,7 @@ interface Subject {
     void detach(Observer o);
     void notifyObservers();
 }
-//
+/
 // 3. Concrete Subject
 class NewsAgency implements Subject {
     private List<Observer> observers = new ArrayList<>();
